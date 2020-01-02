@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+	<style>
+		body{
+			width: 100%;
+			background-image: url("1.jpg");
+			background-size: 100% 100%;
+		    background-repeat: no-repeat;
+		    background-attachment:fixed;
+		    overflow: hidden;
+		}
+		/*.img{
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+		}
+		.img img{
+			opacity:0.8;
+			width: 100%;
+			height: 100%;
+			vertical-align:middle;
+		}*/
+	</style>
+</head>
+<body>
+	<!-- <div class="img">
+		<img src="1.jpg" alt="">
+	</div> -->
+	<!-- <input type="text"> -->
+</body>
+<script src="js/jquery-1.9.1.min.js" ></script>
+<script type="text/javascript">
+$(function(){
+	var i=$(window).height();
+	$("body").height(i);
+	// $("body").css('background-image', 'url("2.jpg")');
+})
+</script>
+</html>
